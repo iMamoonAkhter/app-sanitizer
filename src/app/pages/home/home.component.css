@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+.upper, .middle{
+    /* margin-top: 8vw; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.middle{
+    align-items: flex-start;
+}
+.upper > div{
+    /* border: 2px solid red; */
+    flex: 1 1 30%;
+    padding: 2vw 0;
+}
+.middle .middle_center{
+    flex: 1 1 50%;
+}
+.middle .middle_left, .middle .middle_right{
+    flex: 1 1 20%;
+}
+.heading h1{
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #3290A6;
+    font-size: calc(70/16*1vw);
+    text-align: center;
+}
+.heading p{
+    text-align: center;
+    margin-top: 1.5vw;
+}
+.bgleft1{
+    text-align: right;
+    width: 60px;
+    position: relative;
+    top: -1vw;
+    left: 4vw;
+    /* border: 2px solid green; */
+}
+.bgleft2{
+    position: relative;
+    top: -4vw;
+    width: 208.79px;
+}
+.arow{
+    width: calc(146.15/16*1vw);
+    position: absolute;
+    right: 30vw;
+    top: 22vw;
+}
+.img_right{
+    text-align: right;
+}
+
+.middle div{
+    border: 2px solid red;
+}
+.middle_center{
+    text-align: center;
+    margin: 0 auto;
+    flex-wrap: wrap-reverse;
+}
+.middle_center button{
+    background: none;
+    border: none;
+    width: 8.75vw;
+    height: 2.3vw;
+    
+    background: linear-gradient(#FFB300, #FFA266);
+    filter: drop-shadow(0 .25vw .5vw #FFB300);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: normal;
+}
+.middle_center .center_female{
+    width: 28vw;
+    margin-top: 3vw;
+}
+
+.hand{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 26.125vw;
+    left: 15.125vw;
+
+}
+.hand img:first-child{
+    width: 7vw;
+}
+.hand img:last-child{
+    width: 15vw;
+    position: relative;
+    top: 0vw;
+}
