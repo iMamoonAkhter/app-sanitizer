@@ -1,0 +1,19 @@
+<div class="container">
+    <div class="heading">
+        <h1>Benefits of the Products</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt tincidunt donec fermentum. Lectus mattis aliquam adipiscing.</p>
+    </div>
+
+    <div class="content-box">
+        <div class="content-box_1" >
+            <div class="box" *ngFor="let item of data">
+                <img [src]="item.img" alt="">
+                <p>{{item.txt}}</p>
+            </div>
+        </div>
+
+        <div class="icon">
+            <img src="../assets/bene_icons.png" alt="">
+        </div>
+    </div>
+</div>

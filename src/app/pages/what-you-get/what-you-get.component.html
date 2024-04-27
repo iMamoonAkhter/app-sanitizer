@@ -1,0 +1,63 @@
+<div class="content-box">
+  <div class="text">
+    <h1>What You’ll Get</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt
+      tincidunt donec fermentum. Lectus mattis aliquam adipiscing.
+    </p>
+  </div>
+
+  <div class="content_container">
+    <div class="img">
+        <img src="../assets/BGVirus.png" alt="">
+    </div>
+    <div class="content_youget">
+        <div class="main_container">
+            <div class="glass">
+                <div class="glass1"><h2>$34.99</h2></div>
+                <div class="glass2">
+                    <img src="../assets/Group40666.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <div class="gr_img">
+    <img src="../assets/Group40661.png" alt="">
+  </div>
+
+  <div class="quantity">
+    <div class="selection">
+        <div class="select">
+            <select id="standard-select">
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+              <option value="Option 4">Option 4</option>
+              <option value="Option 5">Option 5</option>
+            </select>
+          </div>
+    </div>
+    <div class="order"><button>Order Now</button></div>
+    <div class="snake">
+        <img src="../assets/snake.png" alt="">
+      </div>
+  </div>
+  
+  <div class="line">
+    <div class="img1">
+        <img src="../assets/virusball.png" alt="">
+    </div>
+    <div class="arr" >
+        <div class="box" *ngFor="let item of data" [ngStyle]="{'width': item.width}">
+            <img [src]="item.img" alt="">
+            <p>{{item.txt}}</p>
+        </div>
+    </div>
+  </div>
+
+  <div class="instagram">
+    <img src="../assets/Instagram.png" alt="">
+  </div>
+</div>

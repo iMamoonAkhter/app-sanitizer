@@ -1,0 +1,58 @@
+.content-box h1, p{
+    text-align: center;    
+}
+.content-box p {
+    width: 38.22vw;
+    margin: 1.2vw auto;
+    font-size: 1.3vw;
+
+}
+.image{
+    margin-top: 7vw;
+    display: flex;
+    flex-direction: column;
+}
+.image img{
+    margin-bottom: 1vw;
+    width: 50vw;
+}
+.ii{
+    text-align: right;
+}
+/* Hide the default radio button */
+.custom-radio input[type="radio"] {
+    display: none;
+  }
+  .radio{
+    margin: 4vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* Create a custom radio button */
+  .custom-radio label:before {
+    content: '';
+    display: inline-block;
+    width: 1vw;
+    height: 1vw;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 0.1vw solid #39B7D5;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+  
+  /* Style for when the radio button is checked */
+  .custom-radio input[type="radio"]:checked + label:before {
+    background-color: #39B7D5;
+  }
+  
+  .group{
+    position: absolute;
+    right: 4vw;
+  }
+  .group img{
+    width: 10vw;
+    position: relative;
+    top: -8vw;
+  }

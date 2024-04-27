@@ -1,0 +1,29 @@
+<footer>
+    <div class="foter">
+       <img src="../assets/bottle.png" alt=""> 
+    </div>
+    <div class="footer_info">
+        <div class="text">
+            <h1>Get in Touch!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Id tincidunt tincidunt donec.</p>
+        </div>
+        <div id="search">
+            <div class="searchBar">
+                <input type="text" placeholder="Enter email here..." [(ngModel)]="text" [ngClass]="getTextClass()" [ngClass]="getText1Class()">
+            </div>
+            <button [ngClass]="but()">Subscribe</button>
+        </div>
+        <div class="social">
+            <img src="../assets/facebook.png" alt="">
+            <img src="../assets/linkedin.png" alt="">
+            <img src="../assets/instagram1.png" alt="">
+            <img src="../assets/twitter.png" alt="">
+        </div>
+    </div>
+    <div class="foter"><img src="../assets/bottle1.png" alt=""></div>
+</footer>
+<div class="footer_one">
+    <span>{{footer}}</span>
+</div>
+
+<!-- [ngStyle]="{'background-color': text.length>0 ? '#000':'#fff'}" -->

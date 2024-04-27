@@ -1,0 +1,147 @@
+.content-box .text{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 2px solid red; */
+}
+.text p{
+    margin: 1.2vw auto;
+    font-size: 1.3vw;
+    width: 38.22vw;
+}
+.text h1{
+    font-size: 2.5vw;
+}
+.content_container {
+    position: relative;
+    /* border: 2px solid red; */
+    padding: 2vw 0;
+    display: flex;
+    justify-content: flex-start;
+}
+.content_container img{
+    /* border: 2px solid red; */
+    position: relative;
+    left: -5vw;
+    width: 10vw;
+}
+.content-box .content_youget{
+    width: 50vw;
+    /* border: 2px solid green; */
+    margin-left: 5.5vw;
+}
+.main_container{
+    margin: 0 auto;
+    /* border: 2px solid red; */
+}
+.glass{
+    position: relative;
+}
+.glass .glass2{
+    width: 49.10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    text-align: center;
+}
+.glass2 img{
+    margin: 0 auto;
+    width: 49.10vw;
+    left: 0vw;
+    /* border: 2px solid yellow; */
+}
+.glass .glass1{
+    width: 8.68vw;
+    height: 8.68vw;
+    border-radius: 50%;
+    left: 34vw;
+    top: 1.5vw;
+    z-index: 999;
+    position: absolute;
+    background-color: #CC5252;
+    /* border: 2px solid #CC5252; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.glass1 h2{
+    font-size: 2.14vw;
+    text-align: center;
+    color: #fff;
+}
+
+.gr_img{
+    margin: 0 auto;
+    text-align: center;
+}
+.gr_img img{
+    width: 17.82vw;
+}
+
+.quantity{
+    width: 60vw;
+    margin: 3vw auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.quantity select{
+    width: 8vw;
+    padding: 0.7vw;
+    margin-right: 5vw;
+}
+.quantity button{
+    background: none;
+    border: none;
+    padding: 1vw 3.2vw;
+    background: linear-gradient(#FFB300, #FFA266);
+    filter: drop-shadow(0 .25vw .5vw #FFB300);
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    transition: all 0.5s ease-in-out;
+}
+
+button:hover{
+    background: linear-gradient(#f8b008, #f69e63);
+    cursor: pointer;
+    /* letter-spacing: 0.5vw; */
+    filter: drop-shadow(0 .25vw .5vw #f2ac0a);
+} 
+
+
+.snake{
+    position: absolute;
+    width: 5vw;
+    right: 10vw;
+}
+.snake img{
+    width: 5vw;
+}
+
+.arr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60vw;
+    margin: 0 auto;
+    margin-top: 9.8vw;
+    /* border: 2px solid red; */
+}
+.arr .box{
+    text-align: center;
+}
+.img1{
+    position: absolute;
+    width: 8vw;
+}
+.instagram{
+    text-align: center;
+    /* border: 2px solid red; */
+    margin-top: 8vw;
+}

@@ -1,0 +1,45 @@
+.container{
+
+}
+.container .heading{
+    width: 40vw;
+    margin: 0 auto;
+    margin-bottom: 4vw;
+    text-align: center;
+}
+.heading h1{
+    font-size: 2.5vw;
+    color: #3290A6;
+}
+.heading p{
+    padding-top: 1.2vw;
+    font-size: 1.3vw;
+    width: 38.22vw;
+    margin: 0 auto;
+}
+
+.info{
+   display: flex;
+   justify-content: space-between;
+   flex: 1 1 33%;
+   flex-wrap: wrap;
+   /* border: 2px solid red; */
+}
+.info .info_outer{
+    padding: 2vw 0;
+    width: 25vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2vw;
+    
+}
+.info .info_outer img{
+    width: 5vw;
+    margin-right: 1vw;
+}
+.info .info_outer p{
+    font-size: 1.2vw;
+    margin: 0;
+    width: 10vw;
+}
